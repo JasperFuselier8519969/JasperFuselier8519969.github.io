@@ -44,9 +44,9 @@ $(function () {
     createCollectable("max", 900, 450); 
     createCollectable("kennedi", 1200, 200); 
     // TODO 4 - Create Cannons
-
-
-    
+    createCannon("bottom", 850, 1000)
+    createCannon("right", 200, 2000)
+    createCannon("right", 800, 2000)
     
     //////////////////////////////////
     // ONLY CHANGE ABOVE THIS POINT //
