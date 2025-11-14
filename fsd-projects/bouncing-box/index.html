@@ -81,8 +81,7 @@
          */
         function update() {
         positionX = positionX + 10
-        moveBoxTo(200);
-        moveBoxTo(positionX)
+        moveBoxTo(positionX);
           
         }
 
@@ -94,7 +93,9 @@
          * - move the box to the left side of the screen.
          */
         function handleBoxClick() {
-
+        positionX = 0;
+        changeBoxText(0);
+      
 
 
 
